@@ -1,0 +1,22 @@
+--cpu Cortex-M4.fp
+"asttp configuration/\system_stm32f4xx.o"
+"asttp configuration/\startup_stm32f429xx.o"
+"asttp configuration/\main.o"
+"asttp configuration/\stm32f4xx_hal_msp.o"
+"asttp configuration/\stm32f4xx_it.o"
+"asttp configuration/\stm32f4xx_hal_pwr_ex.o"
+"asttp configuration/\stm32f4xx_hal_flash_ex.o"
+"asttp configuration/\stm32f4xx_hal_dma.o"
+"asttp configuration/\stm32f4xx_hal_rcc_ex.o"
+"asttp configuration/\stm32f4xx_hal_flash.o"
+"asttp configuration/\stm32f4xx_hal.o"
+"asttp configuration/\stm32f4xx_hal_cortex.o"
+"asttp configuration/\stm32f4xx_hal_pwr.o"
+"asttp configuration/\stm32f4xx_hal_dma_ex.o"
+"asttp configuration/\stm32f4xx_hal_flash_ramfunc.o"
+"asttp configuration/\stm32f4xx_hal_rcc.o"
+"asttp configuration/\stm32f4xx_hal_gpio.o"
+--library_type=microlib --strict --scatter "AstTP Configuration/\1erTP.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "1erTP.map" -o "AstTP Configuration/\1erTP.axf"
