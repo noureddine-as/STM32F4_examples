@@ -11,8 +11,8 @@ Use: STM32CubeMX and ARM Keil v5
   - Exchange a char table, whose size is defined by SIZE (5) bitween UART5 and USART1.
   the UART pins are interfaced in the STM29F429I_Discovery like that:
   
-  PC12 ------> UART5_TX               PD2 ------> UART5_RX
-  PA9 ------> USART1_TX               PA10 ------> USART1_RX
+  PC12 ------> UART5_TX    AND    PD2 ------> UART5_RX
+  PA9 ------> USART1_TX    AND    PA10 ------> USART1_RX
 
 Use: STM32CubeMX and ARM Keil v5
 # ------------------------------------------------------
