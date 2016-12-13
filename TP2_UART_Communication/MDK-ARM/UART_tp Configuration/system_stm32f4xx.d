@@ -1,0 +1,9 @@
+uart_tp configuration/\system_stm32f4xx.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
+uart_tp configuration/\system_stm32f4xx.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+uart_tp configuration/\system_stm32f4xx.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h
+uart_tp configuration/\system_stm32f4xx.o: ../Drivers/CMSIS/Include/core_cm4.h
+uart_tp configuration/\system_stm32f4xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+uart_tp configuration/\system_stm32f4xx.o: ../Drivers/CMSIS/Include/core_cmInstr.h
+uart_tp configuration/\system_stm32f4xx.o: ../Drivers/CMSIS/Include/core_cmFunc.h
+uart_tp configuration/\system_stm32f4xx.o: ../Drivers/CMSIS/Include/core_cmSimd.h
+uart_tp configuration/\system_stm32f4xx.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
