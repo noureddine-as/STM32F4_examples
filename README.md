@@ -16,3 +16,9 @@ Use: STM32CubeMX and ARM Keil v5
 
 Use: STM32CubeMX and ARM Keil v5
 # ------------------------------------------------------
+* TP3 - SPI Communication & library creation
+  - Familiarising with SPI-based communication and common components datasheet study.
+  - Designing a library that can manage the SPI communication and data Read/Write to the gyroscope internal registers.
+  - The library should simplify at maximum the managment of the gyroscope.
+  
+# ------------------------------------------------------
